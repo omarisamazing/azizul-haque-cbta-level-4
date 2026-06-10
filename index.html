@@ -1,0 +1,444 @@
+﻿<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="সিবিটিএ লেভেল-৪ (কেয়ারগিভিং) পরীক্ষার প্রস্তুতিমূলক গ্রন্থ — লেখক: এস. এম. আজিজুল হক, সিনিয়র স্টাফ নার্স।" />
+    
+    <!-- This places the name first so it is clearly visible on the browser tab -->
+    <title>S. M. Azizul Haque | CBT&A Level-4 Preparation</title>
+
+    <!-- This links your circle PNG logo to the browser tab icon (favicon) -->
+    <link rel="icon" type="image/png" href="Assets/logo.png" />
+
+    <!-- Google Fonts: Bangla Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Tiro+Bangla:ital@0;1&family=Noto+Serif+Bengali:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ===== Navigation ===== -->
+<header class="nav" id="nav">
+    <div class="container nav__inner">
+        <a href="#hero" class="nav__brand">
+            <span class="nav__logo">আ</span>
+            <span class="nav__title">এস. এম. আজিজুল হক</span>
+        </a>
+        <nav class="nav__links" aria-label="মূল মেনু">
+            <a href="#book">বইটি সম্পর্কে</a>
+            <a href="#inside">বইয়ের অধ্যায়</a>
+            <a href="#author">লেখক পরিচিতি</a>
+            <a href="#sample">নমুনা প্রশ্ন</a>
+            <a href="#reviews">পাঠকের মতামত</a>
+            <a href="#order" class="btn btn--ghost">অর্ডার করুন</a>
+        </nav>
+        <button class="nav__theme" id="themeToggle" aria-label="থিম পরিবর্তন">
+            <svg class="theme-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path class="moon-icon" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" style="display: block;"></path>
+                <circle class="sun-icon" cx="12" cy="12" r="5" style="display: none;"></circle>
+                <line class="sun-icon" x1="12" y1="1" x2="12" y2="3" style="display: none;"></line>
+                <line class="sun-icon" x1="12" y1="21" x2="12" y2="23" style="display: none;"></line>
+                <line class="sun-icon" x1="4.22" y1="4.22" x2="5.64" y2="5.64" style="display: none;"></line>
+                <line class="sun-icon" x1="18.36" y1="18.36" x2="19.78" y2="19.78" style="display: none;"></line>
+                <line class="sun-icon" x1="1" y1="12" x2="3" y2="12" style="display: none;"></line>
+                <line class="sun-icon" x1="21" y1="12" x2="23" y2="12" style="display: none;"></line>
+                <line class="sun-icon" x1="4.22" y1="19.78" x2="5.64" y2="18.36" style="display: none;"></line>
+                <line class="sun-icon" x1="18.36" y1="5.64" x2="19.78" y2="4.22" style="display: none;"></line>
+            </svg>
+        </button>
+        <button class="nav__burger" id="burger" aria-label="মেনু খুলুন">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </button>
+    </div>
+</header>
+
+<!-- ===== Hero ===== -->
+<section class="hero" id="hero">
+    <div class="container hero__grid">
+        <div class="hero__text">
+            <span class="eyebrow">নতুন প্রকাশনা · ২০২৬ সংস্করণ</span>
+            <h1 class="hero__title">
+                <span class="hero__title-bn">সিবিটিএ লেভেল&nbsp;৪</span>
+                <span class="hero__title-sub">কেয়ারগিভিং পরীক্ষার পূর্ণাঙ্গ প্রস্তুতি</span>
+            </h1>
+            <p class="hero__lede">
+                এনএসডিএ অনুমোদিত কম্পিটেন্সি বেইজড ট্রেনিং অ্যান্ড অ্যাসেসমেন্ট (CBT&amp;A)
+                লেভেল-৪ পরীক্ষার্থীদের জন্য একটি বাস্তবসম্মত, পরীক্ষা-কেন্দ্রিক গাইডবুক।
+                পাঠ্যসূচি, বাস্তব কেস স্টাডি, এমসিকিউ ও মৌখিক প্রশ্নের পূর্ণাঙ্গ সংকলন।
+            </p>
+            <div class="hero__cta">
+                <a href="#order" class="btn btn--primary">এখনই অর্ডার করুন · ৳৫৫০</a>
+                <a href="#sample" class="btn btn--outline">নমুনা পড়ুন</a>
+            </div>
+            <ul class="hero__stats" aria-label="বইয়ের পরিসংখ্যান">
+                <li><strong>১২</strong><span>অধ্যায়</span></li>
+                <li><strong>৪৮০+</strong><span>পৃষ্ঠা</span></li>
+                <li><strong>৬৫০+</strong><span>প্রশ্ন</span></li>
+                <li><strong>১৫</strong><span>বছরের নার্সিং অভিজ্ঞতা</span></li>
+            </ul>
+        </div>
+
+        <div class="hero__cover" aria-hidden="true">
+    <div class="book-container">
+        <!-- Add this wrapping cropper div -->
+        <div class="book-cropper">
+            <img src="Assets/CBT&amp;A book cover for web.svg" alt="সিবিটিএ লেভেল-৪ কেয়ারগিভিং বুক কভার" class="book-cover-img" />
+        </div>
+    </div>
+        </div>
+</section>
+
+<!-- ===== About the Book ===== -->
+<section class="section" id="book">
+    <div class="container">
+        <div class="section__head">
+            <span class="eyebrow">বইটি সম্পর্কে</span>
+            <h2>পরীক্ষা যেমন, প্রস্তুতিও তেমন — বাস্তব, সাজানো ও পরিপাটি</h2>
+            <p class="section__intro">
+                জাতীয় দক্ষতা উন্নয়ন কর্তৃপক্ষ (NSDA) ও বাংলাদেশ টেকনিক্যাল এডুকেশন বোর্ড (BTEB) নির্ধারিত
+                কম্পিটেন্সি স্ট্যান্ডার্ড অনুসারে এই গ্রন্থটি রচিত। প্রতিটি অধ্যায়ে রয়েছে শিখন ফলাফল
+                (Learning Outcome), পারফরম্যান্স ক্রাইটেরিয়া, বাস্তব দৃষ্টান্ত এবং অনুশীলনী।
+            </p>
+        </div>
+
+        <div class="features">
+            <article class="feature feature--blue">
+                <div class="feature__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                        <path d="M9 7h7M9 11h7"/>
+                    </svg>
+                </div>
+                <h3>পাঠ্যসূচি-ভিত্তিক</h3>
+                <p>প্রতিটি অধ্যায় NSDA কম্পিটেন্সি স্ট্যান্ডার্ড অনুসারে সাজানো — শিখন ফল ও মূল্যায়ন মাপকাঠি স্পষ্ট।</p>
+            </article>
+            <article class="feature feature--rose">
+                <div class="feature__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4.8 2.3A.3.3 0 1 0 5 2H4.9a.3.3 0 0 0 -.1.3"/>
+                        <path d="M6 5.5a3.5 3.5 0 0 1 6.5 1.022A3.5 3.5 0 0 1 16 10.5"/>
+                        <path d="M8.5 12a1.5 1.5 0 0 0 -1.5 1.5v.5a2 2 0 0 0 2 2"/>
+                        <path d="M15.5 12a1.5 1.5 0 0 1 1.5 1.5v.5a2 2 0 0 1 -2 2"/>
+                        <path d="M12 17v3M8 20h8"/>
+                    </svg>
+                </div>
+                <h3>বাস্তব নার্সিং অভিজ্ঞতা</h3>
+                <p>হাসপাতালের ওয়ার্ড ও হোম-কেয়ারের বাস্তব ঘটনা অবলম্বনে তৈরি কেস স্টাডি।</p>
+            </article>
+            <article class="feature feature--violet">
+                <div class="feature__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="12" y1="11" x2="12" y2="17"></line>
+                        <polyline points="9 14 12 11 15 14"></polyline>
+                    </svg>
+                </div>
+                <h3>৬৫০+ অনুশীলন প্রশ্ন</h3>
+                <p>এমসিকিউ, সংক্ষিপ্ত উত্তর, পরিস্থিতি-ভিত্তিক ও ভাইভা প্রশ্ন — উত্তরসহ।</p>
+            </article>
+            <article class="feature feature--teal">
+                <div class="feature__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"/>
+                        <path d="M2 12h20"/>
+                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                    </svg>
+                </div>
+                <h3>দ্বিভাষিক পরিভাষা</h3>
+                <p>প্রতিটি কারিগরি শব্দের বাংলা ও ইংরেজি — বিদেশে কাজের সুযোগের জন্য প্রস্তুতি সহজ।</p>
+            </article>
+            <article class="feature feature--amber">
+                <div class="feature__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 9a2 2 0 1 0 4 0 2 2 0 0 0-4 0z"/>
+                        <path d="M14 9a2 2 0 1 0 4 0 2 2 0 0 0-4 0z"/>
+                        <path d="M18 16c0 2.21-1.79 4-4 4s-4-1.79-4-4"/>
+                        <line x1="3" y1="21" x2="21" y2="21"/>
+                        <path d="M7 16v4M10 16v4M14 16v4M17 16v4"/>
+                    </svg>
+                </div>
+                <h3>প্র্যাকটিক্যাল চেকলিস্ট</h3>
+                <p>হাত ধোয়া, ভাইটাল সাইন, ফার্স্ট এইড, ডায়াপারিং — ধাপে ধাপে চিত্রসহ চেকলিস্ট।</p>
+            </article>
+            <article class="feature feature--green">
+                <div class="feature__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"/>
+                        <circle cx="12" cy="12" r="6"/>
+                        <circle cx="12" cy="12" r="2"/>
+                    </svg>
+                </div>
+                <h3>মডেল টেস্ট</h3>
+                <p>৫টি পূর্ণাঙ্গ মডেল টেস্ট পরীক্ষার আদলে — সময় ব্যবস্থাপনার জন্য আদর্শ।</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Inside the Book ===== -->
+<section class="section section--alt" id="inside">
+    <div class="container">
+        <div class="section__head">
+            <span class="eyebrow">বইয়ের অধ্যায়</span>
+            <h2>একনজরে সূচিপত্র</h2>
+            <p class="section__intro">
+                ১২টি অধ্যায়ে বিভক্ত এই গ্রন্থে কেয়ারগিভিং পেশার তত্ত্ব ও প্রয়োগ — উভয়ের সমন্বয় রয়েছে।
+            </p>
+        </div>
+
+        <ol class="chapters">
+            <li><span>০১</span><div><h4>কেয়ারগিভিং পেশার পরিচয়</h4><p>পেশাগত নৈতিকতা, ভূমিকা, দায়িত্ব ও কর্মক্ষেত্র।</p></div></li>
+            <li><span>০২</span><div><h4>স্বাস্থ্য ও নিরাপত্তা (OSH)</h4><p>সংক্রমণ নিয়ন্ত্রণ, PPE, হাত ধোয়ার সাত ধাপ।</p></div></li>
+            <li><span>०৩</span><div><h4>যোগাযোগ ও আন্তঃব্যক্তিক দক্ষতা</h4><p>রোগী, পরিবার ও সহকর্মীর সঙ্গে কার্যকর যোগাযোগ।</p></div></li>
+            <li><span>०৪</span><div><h4>মানবদেহ ও মৌলিক শারীরবৃত্ত</h4><p>সিস্টেম-ভিত্তিক সংক্ষিপ্ত আলোচনা ও পরিভাষা।</p></div></li>
+            <li><span>०৫</span><div><h4>দৈনন্দিন জীবনযাপনে সহায়তা (ADL)</h4><p>খাওয়ানো, গোসল, পোশাক পরিবর্তন, টয়লেট সহায়তা।</p></div></li>
+            <li><span>०৬</span><div><h4>ভাইটাল সাইন পরিমাপ</h4><p>তাপমাত্রা, পালস, রক্তচাপ, SpO₂ — সঠিক কৌশল।</p></div></li>
+            <li><span>०৭</span><div><h4>ঔষধ ব্যবস্থাপনায় সহায়তা</h4><p>৫ Rights, রেকর্ড রাখা, ইনসুলিন সাহচর্য।</p></div></li>
+            <li><span>०৮</span><div><h4>বয়স্ক ও ডিমেনশিয়া যত্ন</h4><p>প্রেসার সোর প্রতিরোধ, স্মৃতিভ্রংশজনিত আচরণ ব্যবস্থাপনা।</p></div></li>
+            <li><span>०৯</span><div><h4>শিশু ও মাতৃযত্ন</h4><p>বুকের দুধপান, ডায়াপারিং, নবজাতকের সুরক্ষা।</p></div></li>
+            <li><span>১০</span><div><h4>জরুরি সাড়াদান ও ফার্স্ট এইড</h4><p>CPR, চোকিং, পতন, রক্তক্ষরণ — দ্রুত সিদ্ধান্ত।</p></div></li>
+            <li><span>১১</span><div><h4>পেশাগত নথিপত্র ও রিপোর্টিং</h4><p>কেয়ার প্ল্যান, ইনসিডেন্ট রিপোর্ট, লগ বুক।</p></div></li>
+            <li><span>১২</span><div><h4>মডেল টেস্ট ও ভাইভা গাইড</h4><p>৫টি পূর্ণ মডেল টেস্ট + অ্যাসেসর-শৈলীর ভাইভা প্রশ্ন।</p></div></li>
+        </ol>
+    </div>
+</section>
+
+<!-- ===== About the Author ===== -->
+<section class="section" id="author">
+    <div class="container author">
+<!-- Replace it with this updated block: -->
+<div class="author__photo">
+    <div class="author__image-frame">
+        <img src="Assets/S.M. Azizul Haque.svg" alt="এস. এম. আজিজুল হক" class="author__image" />
+    </div>
+    <div class="author__badge">RN · CBT&amp;A L5</div>
+</div>
+        
+        <div class="author__bio">
+            <span class="eyebrow">লেখক পরিচিতি</span>
+            <h2>এস. এম. আজিজুল হক</h2>
+            <p class="author__role">সিনিয়র স্টাফ নার্স · প্রশিক্ষক ও অ্যাসেসর (CBT&amp;A Level-5)</p>
+            <p>
+                ১৫ বছরের অধিক সময় ধরে ঢাকা ও চট্টগ্রামের একাধিক বিশেষায়িত হাসপাতালে নার্সিং পেশায় কর্মরত।
+                বাংলাদেশ নার্সিং অ্যান্ড মিডওয়াইফারি কাউন্সিল (BNMC) নিবন্ধিত এবং জাতীয় দক্ষতা উন্নয়ন
+                কর্তৃপক্ষের (NSDA) স্বীকৃত CBT&amp;A Level-5 প্রশিক্ষক ও অ্যাসেসর।
+            </p>
+            <p>
+                দেশীয় ও বিদেশগামী (জাপান, সৌদি আরব, যুক্তরাজ্য) কেয়ারগিভার শিক্ষার্থীদের প্রশিক্ষণের
+                অভিজ্ঞতা থেকেই এই গ্রন্থ রচনার অনুপ্রেরণা — যেখানে পরীক্ষার্থীরা পান কাঠামোবদ্ধ,
+                পরীক্ষা-উপযোগী এবং বাস্তবমুখী প্রস্তুতি।
+            </p>
+            <ul class="author__creds">
+                <li><svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em"><circle cx="12" cy="12" r="8"/></svg> BSc in Nursing (DU)</li>
+                <li><svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em"><circle cx="12" cy="12" r="8"/></svg> Post-basic Diploma in Geriatric Care</li>
+                <li><svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em"><circle cx="12" cy="12" r="8"/></svg> Master Trainer, NSDA</li>
+                <li><svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em"><circle cx="12" cy="12" r="8"/></svg> Member, BNMC</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Sample Questions ===== -->
+<section class="section section--alt" id="sample">
+    <div class="container">
+        <div class="section__head">
+            <span class="eyebrow">নমুনা প্রশ্ন</span>
+            <h2>বইয়ের ভেতর থেকে কিছু নমুনা</h2>
+            <p class="section__intro">নিজের প্রস্তুতি যাচাই করুন — উত্তর দেখতে প্রশ্নে ক্লিক করুন।</p>
+        </div>
+
+        <div class="qa">
+            <details>
+                <summary>১. হাত ধোয়ার সঠিক ক্রম WHO অনুযায়ী কয়টি ধাপে সম্পন্ন হয়?</summary>
+                <p><strong>উত্তর:</strong> ৭টি ধাপ — হাতের তালু, আঙুলের ফাঁক, পিঠ, বুড়ো আঙুল, নখের নিচ, কব্জি এবং পরিষ্কার পানিতে ধুয়ে শুকনো তোয়ালেতে মোছা।</p>
+            </details>
+            <details>
+                <summary>২. একজন প্রাপ্তবয়স্ক সুস্থ মানুষের স্বাভাবিক পালস রেট কত?</summary>
+                <p><strong>উত্তর:</strong> বিশ্রামরত অবস্থায় প্রতি মিনিটে ৬০–১০০ বার।</p>
+            </details>
+            <details>
+                <summary>৪. ঔষধ প্রদানে "Five Rights" কী কী?</summary>
+                <p><strong>উত্তর:</strong> Right Patient, Right Drug, Right Dose, Right Route, Right Time।</p>
+            </details>
+            <details>
+                <summary>৫. প্রেসার সোর প্রতিরোধে শয্যাশায়ী রোগীকে কতক্ষণ পরপর পাশ ফেরাতে হয়?</summary>
+                <p><strong>উত্তর:</strong> সাধারণত প্রতি ২ ঘণ্টা পরপর শরীরের অবস্থান পরিবর্তন করতে হয়।</p>
+            </details>
+            <details>
+                <summary>৬. CPR-এ বুকে চাপ ও শ্বাসের অনুপাত কত?</summary>
+                <p><strong>উত্তর:</strong> প্রাপ্তবয়স্কদের জন্য ৩০:২ (৩০ বার বুকে চাপ : ২ বার রেসকিউ ব্রিথ)।</p>
+            </details>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Testimonials ===== -->
+<section class="section" id="reviews">
+    <div class="container">
+        <div class="section__head">
+            <span class="eyebrow">পাঠকের মতামত</span>
+            <h2>যাঁরা বইটি পড়েছেন</h2>
+        </div>
+        <div class="reviews">
+            <blockquote class="review">
+                <p>"প্রশ্নগুলো হুবহু পরীক্ষার ধাঁচে। মডেল টেস্টগুলো প্র্যাকটিস করেই আত্মবিশ্বাস পেয়েছি।"</p>
+                <footer>— সাবিনা ইয়াসমিন, কেয়ারগিভার শিক্ষার্থী, ঢাকা</footer>
+            </blockquote>
+            <blockquote class="review">
+                <p>"দ্বিভাষিক পরিভাষার কারণে জাপান ভিসা প্রস্তুতিতেও বইটি দারুণ কাজে এসেছে।"</p>
+                <footer>— মোঃ আরিফ হোসেন, প্রবাসগামী কর্মী, সিলেট</footer>
+            </blockquote>
+            <blockquote class="review">
+                <p>"একজন প্রশিক্ষক হিসেবে আমি ক্লাসে রেফারেন্স হিসেবে এই বই ব্যবহার করি।"</p>
+                <footer>— তাসনিম আক্তার, CBT&amp;A প্রশিক্ষক, চট্টগ্রাম</footer>
+            </blockquote>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Order / Contact ===== -->
+<section class="section section--cta" id="order">
+    <div class="container order">
+        <div class="order__text">
+            <span class="eyebrow">অর্ডার করুন</span>
+            <h2>আপনার সাফল্যের যাত্রা শুরু হোক আজই</h2>
+            <p>মূল্য: <strong>৳৫৫০</strong> · সারাদেশে ক্যাশ অন ডেলিভারি · ২–৩ কর্মদিবসে পৌঁছে যাবে।</p>
+            <ul class="order__channels" aria-label="যোগাযোগের মাধ্যম">
+            <li>
+                <div class="order__icon-wrapper" aria-hidden="true">
+                    <!-- Hugeicons style Phone Outline -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                </div>
+                <!-- Locate this line in your HTML -->
+                <span>+৮৮০ ১৭১০-৩৩৯২২৬</span>
+            </li>
+            <li>
+                <div class="order__icon-wrapper" aria-hidden="true">
+                    <!-- Hugeicons style Envelope Outline -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="4" width="20" height="16" rx="2"/>
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                    </svg>
+                </div>
+                <span>diu.edu.bd</span>
+            </li>
+            <li>
+                <div class="order__icon-wrapper" aria-hidden="true">
+                    <!-- Hugeicons style Map Pin Outline -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                        <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                </div>
+                <span>পটুয়াখালী জেলা, বরিশাল, বাংলাদেশ</span>
+            </li>
+        </ul>
+        </div>
+        <form class="order__form" onsubmit="event.preventDefault(); document.getElementById('thanks').hidden = false;">
+            <label>আপনার নাম
+                <input type="text" required placeholder="যেমন: রহিমা বেগম" />
+            </label>
+            <label>মোবাইল নম্বর
+                <input type="tel" required placeholder="01XXXXXXXXX" />
+            </label>
+            <label>সম্পূর্ণ ঠিকানা
+                <textarea rows="3" required placeholder="বাড়ি/রোড/থানা/জেলা"></textarea>
+            </label>
+            <label>কপি সংখ্যা
+                <input type="number" min="1" value="1" />
+            </label>
+            <button type="submit" class="btn btn--primary btn--block">অর্ডার নিশ্চিত করুন</button>
+            <p id="thanks" hidden class="order__thanks">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="1.2em" height="1.2em" style="display: inline-block; vertical-align: text-bottom; color: var(--color-success, #28a745);">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                ধন্যবাদ! আমরা শীঘ্রই আপনার সাথে যোগাযোগ করব।
+            </p>
+        </form>
+    </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="footer">
+    <div class="container footer__grid">
+        <div>
+            <h4>লেখক</h4>
+            <p>এস. এম. আজিজুল হক<br/>সিনিয়র স্টাফ নার্স</p>
+        </div>
+        <div>
+            <h4>দ্রুত লিংক</h4>
+            <ul>
+                <li><a href="#book">বইটি সম্পর্কে</a></li>
+                <li><a href="#inside">অধ্যায়সমূহ</a></li>
+                <li><a href="#sample">নমুনা প্রশ্ন</a></li>
+                <li><a href="#order">অর্ডার</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>সামাজিক যোগাযোগ</h4>
+            <ul class="footer__social">
+                <li>
+                    <a href="https://www.facebook.com/AzizNursingAcademy" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" fill="currentColor" class="social-icon">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/@AzizNursingAcademy" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                        <svg viewBox="0 0 24 24" fill="currentColor" class="social-icon">
+                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://bd.linkedin.com/in/aziz-bin-shahjahan-11990" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="currentColor" class="social-icon">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <p lang="bn">&copy;&nbsp;২০২৬ এস. এম. আজিজুল হক · সর্বস্বত্ব সংরক্ষিত</p>
+    </div>
+</footer>
+
+
+<!-- Order Confirmation Popup -->
+<div class="modal" id="orderModal">
+    <div class="modal__content">
+        <button class="modal__close" aria-label="বন্ধ করুন">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+        <div class="modal__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+        </div>
+        <h2 class="modal__title">আপনার অর্ডার গৃহীত হয়েছে</h2>
+        <p class="modal__message">আমরা খুব শীঘ্রই আপনার সাথে যোগাযোগ করব</p>
+        <p class="modal__subtitle">ধন্যবাদ আপনার অর্ডারের জন্য!</p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
+
