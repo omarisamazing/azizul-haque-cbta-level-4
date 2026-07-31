@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://azizul-haque-cbta-level-4.vercel.app/sitemap.xml
